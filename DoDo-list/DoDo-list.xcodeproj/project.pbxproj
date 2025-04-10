@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		30E65B552DA6B4E200B96A71 /* DoDo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DoDo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E65B552DA6B4E200B96A71 /* DoDo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "DoDo-list.app"; path = "/Users/igormungalov/Desktop/DoDo-list/DoDo_List/DoDo-list/build/Debug-iphoneos/DoDo-list.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -21,6 +21,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		3059BD902DA6F8FC008456A5 /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
 		30E65B572DA6B4E200B96A71 /* DoDo-list */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -46,16 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				30E65B572DA6B4E200B96A71 /* DoDo-list */,
-				30E65B562DA6B4E200B96A71 /* Products */,
+				3059BD902DA6F8FC008456A5 /* Model */,
 			);
-			sourceTree = "<group>";
-		};
-		30E65B562DA6B4E200B96A71 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				30E65B552DA6B4E200B96A71 /* DoDo-list.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +71,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				3059BD902DA6F8FC008456A5 /* Model */,
 				30E65B572DA6B4E200B96A71 /* DoDo-list */,
 			);
 			name = "DoDo-list";
@@ -108,7 +106,7 @@
 			mainGroup = 30E65B4C2DA6B4E200B96A71;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 30E65B562DA6B4E200B96A71 /* Products */;
+			productRefGroup = 30E65B4C2DA6B4E200B96A71;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
